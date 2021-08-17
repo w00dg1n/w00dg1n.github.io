@@ -25,11 +25,11 @@
             text-align: center;
         }
 
-        .header {
+        html.fonts-loaded .header {
             font-family: 'Pacifico', cursive;
         }
 
-        .text {
+        html.fonts-loaded .text {
             font-family: 'Roboto', sans-serif;
         }
     </style>
@@ -38,7 +38,7 @@
 <body>
     <h1 class="header">Fancy Header</h1>
     <div class="text">Some text.</div>
-    <script src="fontfaceobserver.js" type="text/javascript"></script>
+    <script src="fontfaceobserver.js" type="text/javascript" async></script>
     <script type="text/javascript">
       const pacificoObserver = new FontFaceObserver('Pacifico');
       const robotoObserver = new FontFaceObserver('Roboto');
@@ -47,7 +47,7 @@
           robotoObserver.load()
         ]).then(function(){
             console.log("Hooray! Font loaded.");
-            // document.documentElement.classList.add("fonts-loaded");
+            document.documentElement.classList.add("fonts-loaded");
         });
     </script>
 </body>
