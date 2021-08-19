@@ -1,0 +1,10 @@
+inter-cyrillic-400-normal.woff2
+inter-cyrillic-700-normal.woff2
+inter-latin-400-normal.woff2
+inter-latin-700-normal.woff2
+inter-latin-ext-700-normal.woff2
+montserrat-cyrillic-400-normal.woff2
+montserrat-cyrillic-700-normal.woff2
+montserrat-latin-400-normal.woff2
+montserrat-latin-700-normal.woff2
+target_fonts.txt
